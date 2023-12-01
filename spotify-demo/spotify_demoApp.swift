@@ -11,7 +11,7 @@ import SwiftUI
 struct spotify_demoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }

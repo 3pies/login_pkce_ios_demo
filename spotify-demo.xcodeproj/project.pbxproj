@@ -14,6 +14,18 @@
 		AF48FDAE2B0C88BA0011BE5D /* spotify_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FDAD2B0C88BA0011BE5D /* spotify_demoTests.swift */; };
 		AF48FDB82B0C88BA0011BE5D /* spotify_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FDB72B0C88BA0011BE5D /* spotify_demoUITests.swift */; };
 		AF48FDBA2B0C88BA0011BE5D /* spotify_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FDB92B0C88BA0011BE5D /* spotify_demoUITestsLaunchTests.swift */; };
+		AF48FE282B15AE060011BE5D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE272B15AE060011BE5D /* ButtonView.swift */; };
+		AF48FE2A2B15AE2F0011BE5D /* OIDExternalUserAgentIOSSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE292B15AE2F0011BE5D /* OIDExternalUserAgentIOSSafariViewController.swift */; };
+		AF48FE2C2B15AE530011BE5D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE2B2B15AE530011BE5D /* HomeView.swift */; };
+		AF48FE2E2B15AE5D0011BE5D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE2D2B15AE5D0011BE5D /* LoginView.swift */; };
+		AF48FE302B15AE6B0011BE5D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE2F2B15AE6B0011BE5D /* LoginViewModel.swift */; };
+		AF48FE322B15AE760011BE5D /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE312B15AE760011BE5D /* SessionViewModel.swift */; };
+		AF48FE352B15AEC50011BE5D /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE342B15AEC50011BE5D /* AppConstants.swift */; };
+		AF48FE372B15AEE60011BE5D /* TokensManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48FE362B15AEE60011BE5D /* TokensManager.swift */; };
+		AF48FE3B2B15B28C0011BE5D /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF48FE3A2B15B28C0011BE5D /* AppAuth */; };
+		AF48FE3D2B15B28C0011BE5D /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = AF48FE3C2B15B28C0011BE5D /* AppAuthCore */; };
+		AF48FE402B15B2A90011BE5D /* Valet in Frameworks */ = {isa = PBXBuildFile; productRef = AF48FE3F2B15B2A90011BE5D /* Valet */; };
+		AF66C6BF2B15B9D50069AB98 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF66C6BE2B15B9D50069AB98 /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,16 @@
 		AF48FDB32B0C88BA0011BE5D /* spotify-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spotify-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF48FDB72B0C88BA0011BE5D /* spotify_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotify_demoUITests.swift; sourceTree = "<group>"; };
 		AF48FDB92B0C88BA0011BE5D /* spotify_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotify_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF48FE272B15AE060011BE5D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		AF48FE292B15AE2F0011BE5D /* OIDExternalUserAgentIOSSafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIDExternalUserAgentIOSSafariViewController.swift; sourceTree = "<group>"; };
+		AF48FE2B2B15AE530011BE5D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF48FE2D2B15AE5D0011BE5D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AF48FE2F2B15AE6B0011BE5D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AF48FE312B15AE760011BE5D /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		AF48FE342B15AEC50011BE5D /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		AF48FE362B15AEE60011BE5D /* TokensManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensManager.swift; sourceTree = "<group>"; };
+		AF48FE382B15B21B0011BE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF66C6BE2B15B9D50069AB98 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF48FE402B15B2A90011BE5D /* Valet in Frameworks */,
+				AF48FE3B2B15B28C0011BE5D /* AppAuth in Frameworks */,
+				AF48FE3D2B15B28C0011BE5D /* AppAuthCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +120,9 @@
 		AF48FD9A2B0C88B80011BE5D /* spotify-demo */ = {
 			isa = PBXGroup;
 			children = (
+				AF48FE382B15B21B0011BE5D /* Info.plist */,
+				AF48FE332B15AEB60011BE5D /* services */,
+				AF48FE232B15ADD80011BE5D /* modules */,
 				AF48FD9B2B0C88B80011BE5D /* spotify_demoApp.swift */,
 				AF48FD9D2B0C88B80011BE5D /* ContentView.swift */,
 				AF48FD9F2B0C88B90011BE5D /* Assets.xcassets */,
@@ -129,6 +157,61 @@
 			path = "spotify-demoUITests";
 			sourceTree = "<group>";
 		};
+		AF48FE222B15ADCF0011BE5D /* components */ = {
+			isa = PBXGroup;
+			children = (
+				AF48FE272B15AE060011BE5D /* ButtonView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		AF48FE232B15ADD80011BE5D /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				AF48FE262B15ADEE0011BE5D /* safari */,
+				AF48FE252B15ADE90011BE5D /* home */,
+				AF48FE242B15ADE30011BE5D /* login */,
+				AF48FE222B15ADCF0011BE5D /* components */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		AF48FE242B15ADE30011BE5D /* login */ = {
+			isa = PBXGroup;
+			children = (
+				AF48FE2D2B15AE5D0011BE5D /* LoginView.swift */,
+				AF48FE2F2B15AE6B0011BE5D /* LoginViewModel.swift */,
+				AF66C6BE2B15B9D50069AB98 /* Navigation.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		AF48FE252B15ADE90011BE5D /* home */ = {
+			isa = PBXGroup;
+			children = (
+				AF48FE2B2B15AE530011BE5D /* HomeView.swift */,
+				AF48FE312B15AE760011BE5D /* SessionViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		AF48FE262B15ADEE0011BE5D /* safari */ = {
+			isa = PBXGroup;
+			children = (
+				AF48FE292B15AE2F0011BE5D /* OIDExternalUserAgentIOSSafariViewController.swift */,
+			);
+			path = safari;
+			sourceTree = "<group>";
+		};
+		AF48FE332B15AEB60011BE5D /* services */ = {
+			isa = PBXGroup;
+			children = (
+				AF48FE342B15AEC50011BE5D /* AppConstants.swift */,
+				AF48FE362B15AEE60011BE5D /* TokensManager.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +228,11 @@
 			dependencies = (
 			);
 			name = "spotify-demo";
+			packageProductDependencies = (
+				AF48FE3A2B15B28C0011BE5D /* AppAuth */,
+				AF48FE3C2B15B28C0011BE5D /* AppAuthCore */,
+				AF48FE3F2B15B2A90011BE5D /* Valet */,
+			);
 			productName = "spotify-demo";
 			productReference = AF48FD982B0C88B80011BE5D /* spotify-demo.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +305,10 @@
 				Base,
 			);
 			mainGroup = AF48FD8F2B0C88B80011BE5D;
+			packageReferences = (
+				AF48FE392B15B28C0011BE5D /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+				AF48FE3E2B15B2A90011BE5D /* XCRemoteSwiftPackageReference "Valet" */,
+			);
 			productRefGroup = AF48FD992B0C88B80011BE5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF48FE2E2B15AE5D0011BE5D /* LoginView.swift in Sources */,
+				AF48FE352B15AEC50011BE5D /* AppConstants.swift in Sources */,
+				AF48FE322B15AE760011BE5D /* SessionViewModel.swift in Sources */,
+				AF66C6BF2B15B9D50069AB98 /* Navigation.swift in Sources */,
+				AF48FE372B15AEE60011BE5D /* TokensManager.swift in Sources */,
 				AF48FD9E2B0C88B80011BE5D /* ContentView.swift in Sources */,
+				AF48FE2A2B15AE2F0011BE5D /* OIDExternalUserAgentIOSSafariViewController.swift in Sources */,
 				AF48FD9C2B0C88B80011BE5D /* spotify_demoApp.swift in Sources */,
+				AF48FE2C2B15AE530011BE5D /* HomeView.swift in Sources */,
+				AF48FE282B15AE060011BE5D /* ButtonView.swift in Sources */,
+				AF48FE302B15AE6B0011BE5D /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +525,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "spotify-demo/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +564,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "spotify-demo/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -617,6 +720,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF48FE392B15B28C0011BE5D /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.2;
+			};
+		};
+		AF48FE3E2B15B2A90011BE5D /* XCRemoteSwiftPackageReference "Valet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/square/Valet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF48FE3A2B15B28C0011BE5D /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF48FE392B15B28C0011BE5D /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		AF48FE3C2B15B28C0011BE5D /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF48FE392B15B28C0011BE5D /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+		AF48FE3F2B15B2A90011BE5D /* Valet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF48FE3E2B15B2A90011BE5D /* XCRemoteSwiftPackageReference "Valet" */;
+			productName = Valet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF48FD902B0C88B80011BE5D /* Project object */;
 }

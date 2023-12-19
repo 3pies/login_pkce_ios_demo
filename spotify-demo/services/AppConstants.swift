@@ -15,4 +15,6 @@ class AppConstants {
     
     static let spotifyDiscoverURL = "https://accounts.spotify.com/.well-known/openid-configuration"
     
+    static let spotifyScopes = ["user-read-private", "user-read-email", "playlist-read-private"]
+    
 }

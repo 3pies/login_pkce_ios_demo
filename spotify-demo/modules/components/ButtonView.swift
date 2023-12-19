@@ -64,6 +64,7 @@ struct IconButtons {
     struct IconNames {
         let lock = "lock"
         let signout = "figure.run"
+        let refresh = "arrow.clockwise"
     }
 }
 

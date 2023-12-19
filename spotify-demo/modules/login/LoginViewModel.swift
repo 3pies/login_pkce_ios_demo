@@ -42,7 +42,7 @@ class LoginViewModel: ObservableObject {
         let request = OIDAuthorizationRequest(
             configuration: configuration,
             clientId: AppConstants.spotifyClientID,
-            scopes: ["user-read-private", "user-read-email"],
+            scopes: AppConstants.spotifyScopes,
             redirectURL: callbackURL,
             responseType: OIDResponseTypeCode,
             additionalParameters: nil)
